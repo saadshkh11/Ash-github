@@ -1,0 +1,5 @@
+$git init //initialize local git repository
+$git add //<file> Add file to index
+$git status // Check status of Working Tree 
+$git commit // Commit Changes in index
+saaad

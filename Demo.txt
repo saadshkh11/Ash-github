@@ -1,0 +1,93 @@
+Version Control ?
+Everytime ou make a change in your project they create a snapshot every 
+version is differennt
+
+Why need Version Control ?
+Provide backup
+Snapshot versioning
+All developer mantaining a Local copy for future loss
+Analyze your Processand give details regarding what was change and what change
+
+Version Control tool?
+Git
+CVS
+Apache
+Mercurial
+
+Git
+Distributed Version Control tool that supports distributed non linear workflows by providing daa assurance for developing quality software
+Diagram:
+LocalRepo<->Collaboration<->Remote Repository
+
+Features of Git
+Distributed
+Compatible
+Non-Linear 
+Branching 
+Lightweight
+Speed 
+Opensource
+Reliable 
+Secure
+Economical
+
+Repository?
+Directory or storage space where your rpoject can live.
+Can be a local Computer or a Storage Space in GitHub or another online host
+
+2 Types of repository
+Local-Located on Local machine,only ou can access,resides as .git folder inside your projects root
+Central-Remote Server-.git Repository folder-Meant to share and exchange data
+
+Git Operator 7 Commands:
+Creating Repositories - git init
+Sync Repository - add origin, push, pull
+Parallel Repository - Branch,Merge,Rebase
+Making Changes - commit,status,add
+
+Create Repo
+First From Github
+Second Locally
+just select the folder where you want your git 
+and run git init
+
+Syn Repo
+use 'git remote add origin "link" ' to add remote rep
+pull files with 'git pull origin master'
+push yur own changes in central repo with 'git push'
+git status : tell you which files are added to index and are ready to commit
+git add :let you add files to your index
+git commit : it refer to recording snapshot of the repository at the given time
+	     committed snapcshot will never change unless done explicitly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$git init //initialize local git repository
+$git add //<file> Add file to index
+$git status // Check status of Working Tree 
+$git commit // Commit Changes in index
+$git push //Push to Remote Repository
+$git pull //Pull latest from Repository
+$git clone //Clone Repository Into a New Directory
+$mkdir name//make a directory
+$ git init
+Initialized empty Git repository

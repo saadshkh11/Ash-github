@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+}
+.headercontainer {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("images/4.jpg");
+	color: white;
+	padding: 100px;
+}
+.headercontainer .group{
+	text-transform: uppercase;
+}
+.headercontainer ul{
+	margin: 0;
+}
+.headercontainer ul li:hover{
+	background-color: pink;
+}
+.headercontainer li{
+	list-style-type: none;
+	float: left;
+	padding: 6px;
+}
+
+.left-area {
+	width: 90%;
+	float:left;
+}
+
+.right-area{
+	width: 10%;
+	float: left;
+}
+.navbar-brand{
+	width: 30px;
+	height: 30px;
+	padding: 0;
+}
+.navbar-brand img{
+	width: 100px;
+}
+.hero-content h2{
+	margin:5;
+}
+.container{
+	width: 90px;
+	margin:50px auto 0;
+	display: table;
+	box-sizing: border-box;
+}
+.row{
+	margin: 10px 0;
+}
+.column{
+	background:#000;
+	display: table-cell;
+	padding: 10px;
+	width: 33.33333%;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+}
+/*Button */
+.Search-box{
+	top: 27%;
+	left: 5.3%;
+	position: absolute;
+	transform: translate(0%,-100%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 7px;
+}
+.Search-box:hover > .Search-text{
+	width: 240px;
+	padding: 0 6px;
+}
+.Search-box:hover > .Search-btn{
+	background: white;
+}
+.Search-btn{
+	color: #e84118;
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.Search-text{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	color: white;
+	font-size: 16px;
+	transition: 0.45;
+	line-height: 40px;
+	width: 0px;
+}

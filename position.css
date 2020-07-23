@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.wrapper{
+	width: 80%;
+	margin: 4% 10% 5% 10%;
+	position: relative;
+}
+.wrapper img{
+	width: 100%
+}
+.wrapper h2{
+	color: red
+	position:absolute;
+	top:50%; 
+}
